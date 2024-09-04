@@ -1,9 +1,9 @@
-import BottomWidget from "./bottomwidget/BottomWidget";
-import TopWidget from "./topwidget/TopWidget";
+import BottomWidget from "./bottomwidget/botwid";
+import TopWidget from "./topwidget/topwid";
 
 const RightSection = () => {
   return (
-    <div className="h-4/6 w-1/2 m-[30px] mt-[90px] mb-[110px] flex flex-col rounded-3xl">
+    <div className="h-3/4 w-1/2 m-[30px] mt-[90px]  flex flex-col rounded-3xl">
       <TopWidget />
       <hr className="border  border-gray-700 m-4  shadow-black" />
       <BottomWidget />

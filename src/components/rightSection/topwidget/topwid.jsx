@@ -1,7 +1,7 @@
-import LeftSidebar from "../LeftSidebar";
+import LeftSidebar from "./twiconbar";
 
-import Nav from "./TopWidNav";
-import RightSidebar from "./RightSidebar";
+import Nav from "./twmain";
+import RightSidebar from "./twrightbar";
 
 const TopWidget = () => {
   return (

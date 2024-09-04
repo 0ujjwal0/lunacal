@@ -41,7 +41,7 @@ const Nav = () => {
         </button>
       </div>
       <div
-        className=" w-11/12 h-full mt-2 text-gray-400 font-medium"
+        className=" h-fit mt-2 text-gray-400 font-medium"
         dangerouslySetInnerHTML={{ __html: texts[text] }}
       />
     </div>

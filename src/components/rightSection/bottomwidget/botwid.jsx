@@ -1,6 +1,5 @@
-import Sidebar from "./sidebar";
-import RightSidebar from "../topwidget/RightSidebar";
-import BottomWidgetNav from "./BottomWidgetNav";
+import Sidebar from "./bwiconbar";
+import BottomWidgetNav from "./widmain";
 
 const BottomWidget = () => {
   return (
@@ -8,7 +7,7 @@ const BottomWidget = () => {
       <div className=" flex justify-between w-full  mt-2 mb-2  lg:mt-2 lg:mb-2">
         <Sidebar /> 
         <BottomWidgetNav />
-        <RightSidebar />
+        
       </div>
     </div>
   );
